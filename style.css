@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+* {
+	    margin: 0;
+		padding: 0;
+		font-family: 'Comfortaa', cursive;
+		box-sizing: border-box;
+	}
+	body {
+		overflow-x: hidden;
+	}
+	:root {
+		--main-color: #36175E;
+		--second-color: #8EC7D2;
+        
+	}
+header {
+	width: 100%;
+	padding: 1rem 2rem;
+	background-color: var(--main-color);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0px auto;
+    
+}
+nav > a {
+	padding: 0.5rem;
+	text-decoration: none;
+	font-size: 1.5rem;
+}
+main {
+	width: 90%;
+	margin: 2rem auto;
+}
+.hero {
+	display: flex;
+	align-items: center;
+}
+.hero-left , .hero-right {
+	width: 50%;
+	flex: 50%;
+}
+.hero-right > img {
+	width: 100%;
+	height: 500%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.hero-left > h1 {
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	letter-spacing: 0.05rem;
+    padding-right: 1rem;
+    line-height: 151%;
+}
+
+.header_img_container{
+	width: 100px;
+
+}
+.quote{
+  width: 50%;
+  margin: 100px auto;
+}
+.video {
+	width: 80%;
+	margin: 4rem auto;
+	height: 80%;
+}
+
+.video > video {
+	width: 100%;
+}
+.quote > h2 {
+	text-align: center;
+	font-size: 	1.3rem;
+	position: relative;
+	font-weight: 500;
+	height: fit-content;
+}
+.quote > h2::after {
+	position: absolute;
+	content: "\201D";
+	font-size: 5rem;
+	right: -10px;
+}
+.quote > h2::before {
+	position: absolute;
+	content: "\201C";
+	font-size: 5rem;
+	left:-30px;
+	top:-30px;
+}
+.description > h3 {
+font-size: 2.1rem;
+line-height: 151%;
+font-weight: 500;
+color: darkgrayx;
+}
+.description > h2 {
+	font-size: 1.2rem;
+	line-height: 151%;
+	font-size: 500;
+	color: ;
+}
+.description > p {
+font-size: 1rem;
+line-height: 151%;
+margin-top: 0.4rem;
+text-align: left;
+}
+
+nav > a {
+padding: 0.5rem;
+border: 2px solid transparent;
+text-decoration: none;
+font-size: 1.5rem;
+border-radius: 4px;
+color: white;
+transition: 0.3s ease;
+}
+nav > a:hover {
+	background-color: #6c2ebd;
+	border-bottom: 4px solid white;
+}
+.active {
+	border-bottom: 4px solid white;
+}
+.description {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 4px 4px 27px 0px rgba(34, 60, 80, 0.2);
+    padding: 2rem;
+    margin: 2rem auto;
+    margin-bottom: 70px;
+} 
+.feature {
+	display: flex;
+	fleX-direction: row-reverse;
+	margin: 1rem 0;
+	gap: 2rem;
+}
+.feature:nth-of-type(even) {
+	flex-direction: row;
+}
+.feature_image > img {
+	width: 256px;
+	height: 256px;
+	object-fit: cover;
+	border-radius: 4px;
+}
+.feature_text {
+	flex: 1;
+}
+#scrollTop {
+	width: 60px;
+	height: 60px;
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	margin: 0px;
+}
+.form {
+	width: 600px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 4rem;
+	justify-content: center;
+	background-color: lightgray;
+	margin: 2rem auto;
+	gap: 1rem;
+	border-radius: 1rem;
+	background-color: var(#6c2ebd);
+}
+.form > h2 {
+	color: white;
+}
+.form > textarea {
+	padding: 0.5rem;
+	border: none;
+	border-radius: 4px;
+	width: 90%;
+	resize: vertical;
+}
+.form > button {
+	padding: 0.5rem;
+	border: none;
+	border-radius: 4px;
+	width: 90%;
+}
+.form > input {
+	padding: 0.5rem;
+	border: none;
+	border-radius: 4px;
+	width: 90%;
+}`
+.swiper {
+	width: 600px;
+	height: 300px;
+	margin-top: 2rem;
+}
+.slide1 {
+	width: 70%;
+	height: 70%;
+	border-radius: 8px;
+}
+.swiper-slide {
+	text-align: center;
+	width: 50%;
+	margin-top: 3rem;
+}
+.imgscroll {
+	width: 100%;
+	height: auto;
+}
+.feature2 {
+	display: flex;
+	background-color: lightgray;
+}
+.feature2-left, .feature2-right {
+	padding: 6rem 3rem;
+	flex:50%;
+	width: 50%;
+}
+.feature2-left > h2 {
+margin: 2rem 0;
+font-size: 2rem;
+
+}
+.feature2-right {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.feature2-right > img {
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 100%;
+}
+footer {
+	padding: 3rem 3 rem;
+	width: 100%;
+	background-color: var(--main-color);
+}
+.footer-container {
+display: flex;
+gap: 1rem;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.footer-container > h3 {
+	color: white;
+	font-size: 1.1rem;
+}
+.icons-container {
+	display: flex;
+	gap: 0.3rem;
+	flex-wrap: wrap;
+}
+.icons-container > a > img {
+	width: 48px;
+	height: 48px;
+	object-fit: cover;
+}
+p {
+	margin-top: 15px;
+	line-height: 141%;
+}
