@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=	, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		@import "undo.css";
+		@import "style.css"	;
+		
+		.gallery {
+
+			display: flex;
+			flex-wrap: wrap;
+
+			width: 980px;
+			margin: 2rem auto;
+		}
+		.column {
+			width: 25%;
+			flex: 25%;
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			gap: 10px;
+		}
+		@media screen and (max-width: 980px) {
+			.column {
+				width: 50%;
+				flex: 50%;
+			}
+			
+			}
+		img {
+			width: 100%;
+			height: auto;
+			transition: 0.4s;
+		}
+		.column > img {
+			transition: 0.4s ease-in-out;
+		}
+		.column > img:hover {
+			transform: scale(1.1);
+		}
+
+	</style>
+	</head>
+	
+<body>
+	<header>
+		<nav>
+			<a href="index.html" >Главная</a>
+		    <a href="gallery.html" class="active">Галерея</a>
+    	</nav>
+    	<div class="header_img_container">
+    				<img src="car2.png"alt="http://carphotos.cardomain.com/ride_images/4/605/4369/39012184006_original.jpg">
+    			
+    	</div>
+	</header>
+    <div class="gallery">
+    		<div class="column">
+    			<img src="https://cdn.ananasposter.ru/image/cache/catalog/poster/cars/83/10048-1000x830.jpg" alt="">
+    			<img src="http://carphotos.cardomain.com/ride_images/4/605/4369/39012184006_original.jpg">
+    		</div>
+    		<div class="column">		
+    			<img src="https://fastmb.ru/uploads/posts/2018-04/1523534116_perednyaya-optika-i-bamper-ford-mustang-gt-2018.jpg" alt="">
+    			<img src="https://barrettjacksoncdn.azureedge.net/staging/carlist/items/Fullsize/Cars/61120/61120_Front_3-4_Web.jpg">
+    		</div>
+    		<div class="column">
+    				<img src="https://krot.info/uploads/posts/2022-01/1642885513_67-krot-info-p-ford-mustang-75.jpg">
+    				<img src="https://mobimg.b-cdn.net/v3/fetch/32/323c6a38255fe5770600ff04bc494613.jpeg">
+    		</div>
+    		<div class="column">
+    			<img src="https://i.artfile.ru/1920x1200_752095_[www.ArtFile.ru].jpg"> </img>
+  				<img src="https://i09.fotocdn.net/s117/530a1fb839e48dde/public_pin_l/2678160782.jpg"alt="">
+</body>
+    		
+    			<img src="https://s1.1zoom.ru/big0/131/Ford_Mustang_Green_Metallic_578226_1280x853.jpg"> </img https://kartinkin.net/uploads/posts/2022-03/1646217683_21-kartinkin-net-p-kartinki-ford-mustang-22.jpg>
+    		</div> 
+	<div >
+
+</html>
